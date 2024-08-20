@@ -1,0 +1,28 @@
+==== BASIC COMMANDS TO START REACT NATIVE PROJECT USING EXPO ====
+
+npx create-expo-app --template     BLANK(TYPESCRIPT)
+
+npx expo
+
+npm i -g @expo/ngrok
+
+npx expo start --tunnel
+
+
+
+
+
+==== COMMANDS TO GENERATE A WEBSITE VERSION ====
+
+npx expo install react-native-web
+
+react-dom @expo/metro-runtime
+
+npm install --force
+
+npx expo 
+
+press w
+
+
+

@@ -1,0 +1,39 @@
+React Native
+
+- Released in 2015 by Facebook
+
+
+Expo - Tool that manage our react native project
+
+Node LTS = 
+
+
+
+Sempre que inserimos componentes JS dentro de tags eles devem estar dentro de chaves {}
+
+
+
+
+npx expo
+
+
+
+src 
+	> assets
+	> components
+	> types
+	> 
+
+
+
+
+Desestruturação de objetos
+
+const user = {
+	nome: "pauilo"
+	idade: 18
+}
+
+
+const {nome, idade} = user;
+
