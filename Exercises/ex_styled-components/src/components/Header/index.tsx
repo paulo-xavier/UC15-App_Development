@@ -1,4 +1,8 @@
-import { Text, TouchableOpacity, View } from "react-native"
+
+import { TouchableOpacity, View } from "react-native"
+import { ContainerHeader, NavBar } from "./styles";
+import { NavItem } from "../Font/styles";
+
 
 
 
@@ -9,14 +13,15 @@ const Header = () => {
     
     return (
         
-        <View>
+        <ContainerHeader>
 
-            <TouchableOpacity> Paulo Xavier </TouchableOpacity>
-            <TouchableOpacity> Home </TouchableOpacity>
-            <TouchableOpacity> About me </TouchableOpacity>
-            <TouchableOpacity> Languages </TouchableOpacity>
-
-        </View>
+            <NavBar>
+                <NavItem> Home </NavItem>
+                <NavItem> About me </NavItem>
+                <NavItem> My stack </NavItem>
+            </NavBar>
+            
+        </ContainerHeader>
         
     )
 

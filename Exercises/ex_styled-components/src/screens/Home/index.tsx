@@ -1,5 +1,11 @@
-import { View } from "react-native"
-import Header from "../../components/Header"
+import { View } from "react-native";
+import Header from "../../components/Header";
+import { Container } from "./styles";
+
+Header
+
+
+
 
 const Home = () => {
 
@@ -9,9 +15,9 @@ const Home = () => {
 
 
     return (
-        <View>
+        <Container>
             <Header />
-        </View>
+        </Container>
     )
 }
 
