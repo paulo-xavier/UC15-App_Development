@@ -1,22 +1,22 @@
-import { Text } from "react-native";
+import { PresentationText } from "./styles";
 
-import { PresentationContainer } from "./styles";
+
+
+
+
 
 const Presentation = () => {
 
 
 
     return (
-        <PresentationContainer>
-
-            <Text>Hello </Text>
-            <Text>My name is Paulo</Text>
-            <Text>Nice to meet you! </Text>
-
-        </PresentationContainer>
-
-
-
+        <>
+        
+            <PresentationText>Hello </PresentationText>
+            <PresentationText>My name is Paulo</PresentationText>
+            <PresentationText>Nice to meet you! </PresentationText>
+        
+        </>
     )
 }
 

@@ -7,6 +7,7 @@ export const ContainerHeader = styled.View`
     gap: 35px;
     height: 30px;
 
+
 `
 
 export const NavBar = styled.View`
