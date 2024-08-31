@@ -2,3 +2,7 @@ https://icons.expo.fyi/Index
 https://reactnative.dev/docs/flexbox
 https://picsum.photos/200
 https://robohash.org/cat Troque o /cat por qualquer palavra
+
+
+Starship (Terminal theme)
+-starship.rs

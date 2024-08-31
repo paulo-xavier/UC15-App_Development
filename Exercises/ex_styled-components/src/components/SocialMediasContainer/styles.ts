@@ -13,7 +13,7 @@ export const SocialMediasContainer = styled.View`
     gap: 30px;
 
     align-items: center;
-\
+
     margin-top: 18px;
 
 
