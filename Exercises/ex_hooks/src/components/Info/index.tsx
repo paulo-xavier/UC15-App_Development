@@ -3,7 +3,7 @@ import { BigText, MediumText } from '../Font';
 import { ContainerInfo } from './styles';
 
 
-export const Info = () => {
+const Info = () => {
 
 
 
