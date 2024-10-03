@@ -1,0 +1,6 @@
+API - Interface de Programação de Aplicação
+
+
+Interface - Think of something that will be accessed and it will return something.
+
+
