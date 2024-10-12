@@ -11,7 +11,6 @@ export default function App() {
       marginTop: 100
     }}>
 
-
       <Login />
     </SafeAreaView>
       

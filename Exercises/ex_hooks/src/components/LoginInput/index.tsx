@@ -3,36 +3,49 @@ import { ContainerInfo } from "../Info/styles";
 
 import { Button } from "../Button";
 
-import { TextInput, Text, TouchableOpacity } from "react-native";
 import { Input } from "../Input";
+import { useState } from "react";
+
+import { Alert } from 'react-native'
 
 
 
 const LoginInput = () => {
+
+    const [email, setEmail] = useState('');
+    const [password, setpassword] = useState('');
+
+
+    const printValue = () => {
+        setEmail(email);
+        setpassword(password);
+
+        console.log(email);
+        console.log(password);
+        
+    }
+
 
     return (
     
             <Container>
 
                 <Input 
-                    placeholder="Enter your email" 
-                    showSoftInputOnFocus={false}
-                    selectTextOnFocus={false}
-                    autoFocus={false}
-                    maxLength={20}
+                
+                    value={email}
+                    onChangeText={setEmail}
                 />
 
                 <Input 
                     placeholder="Enter your password"
+                    value={password}
+                    onChangeText={setpassword}
                 />
 
                 <Button>Log in</Button>
 
-                
-
+            
             </Container>
-    
-
     )
 }
 
